@@ -1,0 +1,212 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: black;
+    
+}
+.header {
+
+  position: fixed;
+  background: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+
+  
+    
+}
+
+#nav-bar  {
+
+  list-style: none;
+  display: flex;
+ 
+  
+    
+}
+
+#nav-bar li {
+
+    margin-left: 30px;
+
+}
+
+a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn {
+
+    
+    
+}
+
+.btn a {
+
+    color:white;
+    margin: 2px;
+    background: black;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+
+#lgn {
+
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+
+.content {
+
+    background: white;
+    height: 100vh;
+    width: 50vw;
+}
+
+.content h1 {
+
+    color: white;
+
+}
+
+.content2 {
+
+    height: 100vh;
+    background: yellowgreen;
+    width: 100vw;
+}
+
+.icon {
+
+    visibility: hidden;
+    
+}
+
+/* IPAD/IPAD-PRO SCREEN */
+@media only screen and (max-width: 1024px) {
+
+    .header {
+
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-bar {
+        
+        background: red;
+        height: 30vh;
+        text-align: center;
+        margin: 30px auto;
+        padding: 0px 120px;
+        
+
+        
+        
+    }
+
+    #nav-bar li {
+
+        margin: 30px auto;
+        border: 1px solid black;
+        padding: 15px;
+        
+    }
+
+    #nav-bar a {
+
+        color: black;
+        padding:100px;
+        
+        
+        
+    }
+
+    #nav-bar li:hover {
+
+        background: white;
+    }
+    
+    .icon {
+
+        padding: 20px;
+        visibility: visible;
+    }
+} 
+
+
+
+/* PHONE */
+
+@media only screen and (max-width: 812px) {
+
+    .header {
+
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-bar {
+        
+        background: red;
+        height: 30vh;
+        text-align: center;
+        margin: 30px auto;
+        padding: 0px 30px;
+        
+
+        
+        
+    }
+
+    #nav-bar li {
+
+        margin: 15px auto;
+        border: 1px solid black;
+        padding: 15px;
+        
+    }
+
+    #nav-bar a {
+
+        color: black;
+        padding:20px;
+        
+        
+        
+    }
+
+    #nav-bar li:hover {
+
+        background: white;
+    }
+    
+    .icon {
+
+        padding: 20px;
+        visibility: visible;
+    }
+} 
+
+
+
